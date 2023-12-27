@@ -1,3 +1,23 @@
+<b:skin><![CDATA[/*
+
+ ======================================
+Jobzeek: Best Premium Blogger Template for Job Posting - Designed by Gila Temax (www.gilatemax.com)
+=========================================
+Name      : Jobzeek
+Date      : 9 January 2023
+Demo      : jobzeek.gilatemax.com
+Type      : Premium (Paid)
+Designer  : Gila Temax
+Website   : protemplates.in
+***************************************
+This template is premium (paid).
+You can get it only by purchasing officially.
+If you got it for free through any method, it means you got it illegally.
+*************************************** */
+
+
+/* Variable definitions start
+=============================
 
 <Group description="Accent Color Options">
   <Variable name="accent.color" description="Accent Color" type="color" default="#fe5722"  value="#fe5722"/>
@@ -313,5 +333,4 @@ body#layout .ad_under_header .widget-content .editlink.icon, body#layout .infeed
 body#layout .ad_under_header .widget-content .editlink.icon:hover, body#layout .infeed_ad .widget-content .editlink.icon:hover, body#layout .top_ad .widget-content .editlink.icon:hover, body#layout .middle_ad1 .widget-content .editlink.icon:hover, body#layout .parallax_ad .widget-content .editlink.icon:hover, body#layout .middle_ad2 .widget-content .editlink.icon:hover, body#layout .bottom_ad .widget-content .editlink.icon:hover, body#layout .matched_content .widget-content .editlink.icon:hover {
   background-color:#ffdfdf;
 }
-
-</style>
+]]></b:template-skin>
