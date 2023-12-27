@@ -1,211 +1,114 @@
-
-body {font-size:14px;font-weight:400;font-family:'Roboto', sans-serif;line-height:1.5;background-color:var(--color-body-bg);color:var(--color-text-primary);-webkit-tap-highlight-color:transparent;margin:0;padding:0!important;}.jobzeek_header_container {position:fixed;top:0;right:0;left:0;background-color:var(--color-header-bg);border-bottom:1px solid;border-color:var(--color-border-default);height:60px;z-index:1001;}.jobzeek_header_wrapper {display:flex;align-items:center;justify-content:space-between;max-width:1200px;height:60px;margin:0 auto;padding:0 15px;}.header_left {display:flex;align-items:center;}.header_left .menu_button {display:none;}.header_left .menu_button svg:last-child {display:none;}.nav_active .header_left .menu_button svg:first-child {display:none;}.nav_active .header_left .menu_button svg:last-child {display:block;}.header {margin-right:15px;}.header h1, .header h2 {font-size:24px;white-space:nowrap;margin:0;}.header a:not(.header .header_image_wrapper) {color:var(--color-text-primary);}.header a:not(.header .header_image_wrapper):hover {color:var(--color-accent);}.header p {display:none;}.header .header_image_wrapper {display:block;line-height:0;}.header .header_image_wrapper img {max-height:52px;padding:10px 0;}.jobzeek_navigation ul {display:flex;align-items:center;margin:0;padding:0;}.jobzeek_navigation ul li {list-style:none;margin:0;padding:0;position:relative;}.jobzeek_navigation ul li a {display:flex;align-items:center;color:var(--color-text-primary);line-height:60px;white-space:nowrap;padding:0 15px;}.jobzeek_navigation ul li a:hover {color:var(--color-accent);}.jobzeek_navigation ul li svg:not(.arrow_icon svg) {margin-right:15px;}.jobzeek_navigation ul li .arrow_icon {display:block;line-height:0;margin-left:6px;}.jobzeek_navigation ul li .arrow_icon svg {width:15px;height:15px;}.jobzeek_navigation ul li.active .arrow_icon svg, .jobzeek_navigation ul > li > .active .arrow_icon svg {transform:rotate(180deg);}.jobzeek_navigation li ul {display:block;position:absolute;top:52px;left:0;background-color:#ffffff;box-shadow:0px 10px 50px rgb(0 0 0 / 10%);border:1px solid;border-color:var(--color-border-default);border-radius:7px;opacity:0;visibility:hidden;transform:translateY(-5px);transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, transform .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, max-height .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;margin:0;padding:5px 0;}.jobzeek_navigation li.active ul, .jobzeek_navigation li ul.show {opacity:1;visibility:visible;transform:translateY(0);}.jobzeek_navigation li ul li a {line-height:44px;}.header_right {display:flex;align-items:center;position:relative;}.notification_button:before {content:'';position:absolute;top:12px;right:12px;width:10px;height:10px;background-color:var(--color-indicator);border-radius:50%;animation: indicator 1s ease infinite;}.notification_wrapper {display:none;position:fixed;top:50%;left:50%;width:100%;max-width:480px;z-index:1001;transform:translate(-50%, -50%);}.ntfcn_active .notification_wrapper {display:block;}.notification_wrapper .Image {background-color:var(--color-notification-bg);box-shadow:0 20px 50px rgb(0 0 0 / 20%);border-radius:7px;margin:0 15px;}.notification_wrapper .widget_title {display:flex;align-items:center;justify-content:space-between;margin:0;padding:5px 5px 5px 15px;}.notification_wrapper .image_link {display:block;line-height:0;}.notification_wrapper .image_link img {width:100%;}.notification_wrapper .caption {padding:15px;}.notification_wrapper .caption a:hover {text-decoration:underline;}.top_height {height:60px;margin-bottom:30px;}.error_wrapper {display:flex;align-items:center;flex-direction:column;text-align:center;max-width:1200px;margin:40px auto;padding:0 15px;}.error_wrapper .error_illustration {margin-bottom:30px;}.error_wrapper .error_illustration svg {width:100%;height:100%;max-width:500px;}.error_wrapper h3 {font-size:22px;}.error_wrapper p {margin:0 0 30px;}.jobzeek_content_wrapper {display:flex;justify-content:space-between;max-width:1200px;margin:0 auto 50px;padding:0 15px;}.isPage .jobzeek_content_wrapper {display:block;}.jobzeek_index_post {width:calc(100% - (300px + 30px));}.isPage .jobzeek_index_post {width:100%;}.widget_under_header .widget {margin:0 0 15px;}.search_box_container {background-color:var(--color-search-box-bg);box-shadow:0 4px 8px #dedede;margin-bottom:30px;padding:30px 0;}.search_box_wrapper {max-width:1200px;margin:0 auto;padding:0 15px;}.search_form {display:flex;gap:15px;position:relative;}.search_icon {position:absolute;top:10px;left:12px;line-height:0;}.search_icon svg {stroke:var(--color-accent);}.search_form .search_input {background-color:var(--color-search-box-input-bg);color:var(--color-text-primary);border:1px solid;border-color:var(--color-search-box-border);border-radius:7px;outline:none;text-overflow:ellipsis;width:-webkit-fill-available;height:44px;padding:0 48px;}.search_form .search_input::placeholder {color:var(--color-text-secondary);}.search_form .search_input:focus {border-color:var(--color-accent);}.search_form .search_input:focus::placeholder {opacity:.5;}.search_form .search_input::-webkit-search-cancel-button {position:absolute;top:10px;right:10px;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.7,12l6.6,6.6l-0.7,0.7L12,12.7l-6.6,6.6l-0.7-0.7l6.6-6.6L4.6,5.4l0.7-0.7l6.6,6.6l6.6-6.6l0.7,0.7L12.7,12z' fill='%23000000'/%3E%3C/svg%3E");-webkit-appearance: none;height: 24px;width: 24px;cursor:pointer;}.content_tabs {position:sticky;top:60px;background-color:var(--color-content-tabs-bg);z-index:2;}.content_tabs .widget {margin-bottom:15px;}.content_tabs .widget .cloud {display:flex;align-items:center;border-bottom:1px solid;border-color:var(--color-border-default);white-space:nowrap;overflow:hidden;scroll-behavior:smooth;}.content_tabs .widget .cloud a {display:flex;align-items:center;color:var(--color-text-secondary);user-select:none;padding:15px;position:relative;}.content_tabs .widget .cloud a:hover, .content_tabs .widget .cloud a.selected {color:var(--color-accent);}.content_tabs .widget .cloud a.selected {font-weight:500;}.content_tabs .widget .cloud a.selected:before {content:'';position:absolute;bottom:0;left:0;width:100%;height:1px;background-color:var(--color-accent);}.content_tabs .widget .cloud .label_count {background-color:var(--color-label-count-bg);border-radius:4px;font-size:12px;margin-left:7px;padding:0 6px;}.content_tabs .widget .cloud a:hover .label_count, .content_tabs .widget .cloud a.selected .label_count {background-color:var(--color-accent);color:var(--color-text-white);}.content_tabs .left_arrow, .content_tabs .right_arrow {display:none;position:absolute;top:0;line-height:0;cursor:pointer;z-index:1;padding:13px;}.content_tabs .left_arrow {left:0;background:linear-gradient(270deg, rgba(255, 255, 255, 0) 0px, rgb(255, 255, 255) 50%);padding-right:42px;padding-left:5px;}.content_tabs .right_arrow {right:0;background:linear-gradient(90deg, rgba(255, 255, 255, 0) 0px, rgb(255, 255, 255) 50%);padding-right:5px;padding-left:42px;}.content_tabs .left_arrow.active, .content_tabs .right_arrow.active {display:flex;}.content_tabs .left_arrow:hover svg, .content_tabs .right_arrow:hover svg {color:var(--color-accent);}.FeaturedPost {margin-bottom:15px;position:relative;}.FeaturedPost .widget_title {display:flex;align-items:center;justify-content:space-between;position:absolute;top:0;right:0;left:0;border-bottom:1px solid;border-color:var(--color-border-default);color:var(--color-accent);user-select:none;margin:0;padding:10px 15px;}.FeaturedPost:hover .widget_title {border-color:var(--color-accent);}.FeaturedPost .widget_title svg {width:18px;height:18px;}.FeaturedPost .post_outer {padding-top:59px;overflow:hidden;position:unset;}.FeaturedPost .post_header_end {display:flex;align-items:flex-end;flex-direction:column;gap:5px;}.query_empty .no_results_image {line-height:0;text-align:center;margin-bottom:20px;}.no_results_illustration {margin:30px 0;}.no_results_illustration svg {width:100%;height:100%;max-width:160px;}.query_empty h3 {font-size:16px;}.query_empty p {margin:0 0 15px;}.query_empty ul {margin:0;padding:0 0 0 25px;}.query_empty span {display:block;text-align:center;margin-top:30px;}.isMultipleItems .blog_posts {display:grid;grid-template-columns:1fr 1fr;grid-gap:15px;}.layout_list.isMultipleItems .blog_posts {grid-template-columns:1fr;}.post_outer {border:1px solid;border-color:var(--color-border-default);border-radius:7px;padding:15px;position:relative;}.isSingleItem .blog_posts .post_outer {border:none;border-radius:0;margin:0;padding:0;}.post_outer:not(.isSingleItem .blog_posts .post_outer):hover, .FeaturedPost:hover .post_outer {background-color:var(--color-accent-hover);border-color:var(--color-accent);}.post_detail {display:flex;flex-direction:column;justify-content:space-between;height:100%;}.post_header {display:flex;align-items:center;gap:15px;}.post_top {display:flex;align-items:center;}.post_thumbnail {line-height:0;flex:0 0 auto;margin-right:15px;}.post_thumbnail img {width:60px;height:60px;object-fit:cover;border-radius:7px;}h2.post_title {font-size:16px;margin:0;}h2.post_title a {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;color:var(--color-text-primary);}h2.post_title a:before {content:'';position:absolute;top:0;right:0;bottom:0;left:0;}.post_bottom {margin-top:15px;}.post_snippet {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;color:var(--color-text-secondary);}.post_header_end {place-self:flex-start;margin-left:auto;}.post_labels a {display:block;border:1px solid;border-color:var(--color-border-default);border-radius:30px;font-size:13px;color:var(--color-text-secondary);white-space:nowrap;padding:5px 12px;position:relative;}.post_labels a:hover {background-color:var(--color-accent-hover);color:var(--color-accent);border-color:var(--color-accent);}.post_labels a:nth-child(n+2) {display:none;}.post_footer {display:flex;align-items:center;gap:10px;margin-top:15px;}.post_date .publishing_time, .post_date .update_time {display:flex;align-items:center;gap:3px;font-size:13px;color:var(--color-text-secondary);}.isPost .post_date .publishing_time {white-space:nowrap;}.post_date .publishing_time .published {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;}.post_date .update_time {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;color:var(--color-accent);}.post_date .update_time .circle {display:inline-block;width:3px;height:3px;background-color:var(--color-circle-dot-bg);border-radius:50%;vertical-align:middle;margin-right:7px;}.post_date svg {width:18px;height:18px;margin-right:2px;}.share_this_post {position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;max-width:600px;z-index:1002;opacity:0;visibility:hidden;transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;}.share_this_post.active, .isPost.share_active .share_this_post {opacity:1;visibility:visible;}.share_inside {background-color:var(--color-share-bg);box-shadow:0 20px 50px rgb(0 0 0 / 20%);border-radius:7px;opacity:0;visibility:hidden;transform:translateY(50px);transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, transform .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;margin:0 15px;}.share_this_post.active .share_inside, .isPost.share_active .share_this_post .share_inside {opacity:1;visibility:visible;transform:translateY(0);}.share_inside .share_title {display:flex;align-items:center;justify-content:space-between;font-size:18px;font-weight:500;padding:10px 5px 10px 15px;}.share_illustration {text-align:center;padding:15px 0;}.share_illustration svg {width:100%;height:100%;max-width:320px;}.share_content {display:flex;align-items:center;flex-wrap:wrap;gap:15px;padding:15px;}.share_content a {display:flex;align-items:center;flex-direction:column;flex:1 0 auto;gap:4px;color:var(--color-text-secondary);border-radius:7px;font-size:12px;}.share_content .whatsapp:hover {color:#128c7e;}.share_content .twitter:hover {color:#1da1f2;}.share_content .twitter:hover {color:#1da1f2;}.share_content .facebook:hover {color:#4267b2;}.share_content .linkedIn:hover {color:#0077b5;}.share_content .telegram:hover {color:#0088cc;}.share_content .pinterest:hover {color:#E60023;}.share_content .copy_link_button:hover {color:var(--color-accent);}.get_url {position:absolute;margin:0;padding:0;outline:0;border:0;width:1px;height:0;opacity:0;}.breadcrumbs {color:var(--color-text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:20px;}.breadcrumbs > *:not(:last-child):after {content:'/';margin:0 3px;}.breadcrumbs a {display:inline-block;}.breadcrumbs a:hover {text-decoration:underline;}h1.entry_post_title {font-size:26px;margin:0;}.isPage h1.entry_post_title {margin-bottom:24px;}.entry_post_date_ap {margin:15px 0 24px;}.entry_post_date_ap .post_date {display:flex;align-items:center;gap:10px;}.entry_post_bookmark {display:none;}.bookmark_empty {display:none;margin-top:45px;}.bookmark_empty.empty {display:block;}.entry_post_share {display:none;}.entry_post_share_ap {display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:24px;}.entry_post_share_ap .facebook {background-color:#4267b2!important;}.entry_post_share_ap .whatsapp {background-color:#128c7e!important;}.entry_post_share_ap .telegram {background-color:#0088cc!important;}.isPost .post_body {border-bottom:1px solid;border-color:var(--color-border-default);margin-bottom:30px;padding-bottom:30px;}#post_middle {text-align:left;word-break:break-word;}#post_middle h1, #post_middle h2, #post_middle h3, #post_middle h4, #post_middle h5, #post_middle h6 {margin:28px 0 15px;}#post_middle h1:target::before, #post_middle h2:target::before, #post_middle h3:target::before, #post_middle h4:target::before, #post_middle h5:target::before, #post_middle h6:target::before {content:'';display:block;height:80px;margin:-80px 0 0;}#post_middle a:not(h3.post_title a, .jobzeek_button, .share_content a, .bookmark_page ul li a):hover {text-decoration:underline;}#post_middle img:not(.job_posting_thumbnail img, .post_thumbnail img) {border-radius:7px;max-width:100%;}#post_middle a[style="margin-left: 1em;margin-right: 1em;text-align: center;"], #post_middle a[style="display: block;padding: 1em 0;text-align: center;"], #post_middle a[style="display: block;padding: 1em 0px;text-align: center;"], #post_middle a[style="margin-left: 1em;margin-right: 1em;"], #post_middle a[style="margin-left: 1em;margin-right: 1em;text-align: center;"], #post_middle a[style="display: block; padding: 1em 0; text-align: center; clear: right; float: right;"] {display:inline-block!important;line-height:0!important;margin:0!important;padding:0!important;float:none!important;}.post_middle_ap {margin-top:24px;}.job_posting_container {margin-bottom:30px;}.isMultipleItems .job_posting_container {margin:0;}.job_posting_start {border-bottom:1px solid;border-color:var(--color-border-default);margin-bottom:30px;padding-bottom:30px;}.isMultipleItems .job_posting_start {border:none;margin:0;padding:0;}.job_posting_header_start {display:flex;align-items:center;margin-bottom:15px;}.job_posting_thumbnail {flex:0 0 auto;line-height:0;}.isMultipleItems .job_posting_thumbnail, .isMultipleItems .job_posting_header_start, .isMultipleItems .job_posting_post_date, .isMultipleItems .job_posting_button, .isMultipleItems .job_posting_end {display:none;}.job_posting_thumbnail img {width:85px;border-radius:7px;}.job_posting_title {font-size:20px;font-weight:700;margin-left:15px;}.job_info {display:flex;align-items:center;gap:7px;margin-bottom:8px;}.job_info svg {width:20px;height:20px;flex:0 0 auto;}.job_posting_post_date {margin-top:25px;}.job_posting_post_date .post_date {display:flex;align-items:center;gap:10px;margin:0;}.job_posting_button {display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:20px;}.job_posting_bookmark_button .bookmark span:last-child {display:none;}.job_posting_bookmark_button .bookmark.bookmarked span:first-child {display:none;}.job_posting_bookmark_button .bookmark.bookmarked span:last-child {display:block;}.bookmark_page {max-width:838px;}.bookmark_page ul {margin:0;padding:0;}.bookmark_page ul li {border:1px solid;border-color:var(--color-border-default);border-radius:7px;list-style:none;margin:0;padding:15px;position:relative;}.bookmark_page ul li:not(:last-child) {margin-bottom:15px;}.bookmark_page ul li:hover {background-color:var(--color-accent-hover);border-color:var(--color-accent);}.bookmark_page ul li .post_title {font-size:16px;font-weight:700;}.bookmark_page ul li .post_title a {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;color:var(--color-text-primary);}.bookmark_page ul li .post_title a:before {content:'';position:absolute;top:0;right:0;bottom:0;left:0;}.bookmark_empty_illustration {margin-bottom:30px;}.bookmark_empty_illustration svg {width:100%;height:100%;max-width:300px;}.bookmark_empty h2 {font-size:16px;}.bookmark_empty p {margin:0;}.bottom_bar_menu {display:none;}.scam_warning {margin-bottom:0!important;}.author_box {display:flex;align-items:flex-start;border:1px solid;border-color:var(--color-border-default);border-radius:7px;margin-top:30px;padding:15px;}.author_box .author_photo {flex:0 0 auto;line-height:0;margin-right:15px;position:relative;}.author_box .author_photo:after {content:'';background:var(--color-accent) url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='20 6 9 17 4 12' fill='none' stroke='%23fff' stroke-width='3px' /%3E%3C/svg%3E") center / .7rem no-repeat;background-size:.5rem;width:.75rem;height:.75rem;border:1px solid;border-color:var(--color-comment-avatar-check-bg);border-radius:50%;position:absolute;right:-3px;bottom:0;}.author_box .author_photo img {width:40px;height:40px;border-radius:50%;}.author_box .author_meta .author_name {font-size:16px;font-weight:700;margin-bottom:5px;}.author_box .author_bio a:hover {text-decoration:underline;}#baca_juga {display:inline-block;border:1px solid;border-color:var(--color-border-default);border-radius:7px;margin:24px 0;padding:15px;}.baca_juga_wrap strong {display:block;font-size:16px;margin-bottom:15px;}.baca_juga_wrap ul {margin:0;padding:0 0 0 30px;}.baca_juga_wrap ul li:not(:last-child) {margin-bottom:10px;}.related_posts {margin-top:30px;}.related_posts ul {display:grid;grid-template-columns:1fr 1fr;grid-gap:15px;margin:0;padding:0;}.related_posts ul li {border:1px solid;border-color:var(--color-border-default);border-radius:7px;list-style:none;margin:0;padding:15px;position:relative;}.related_posts ul li:hover {background-color:var(--color-accent-hover);border-color:var(--color-accent);}.related_posts_detail {display:flex;align-items:center;}.related_posts_top {flex:0 0 auto;margin-right:10px;}.related_posts.no_thumbnail .related_posts_top {display:none;}.related_posts_thumbnail {line-height:0;}.related_posts_thumbnail img {width:60px;height:60px;object-fit:cover;border-radius:7px;}.related_posts_title {font-size:16px;font-weight:700;}.related_posts_title a {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;color:var(--color-text-primary);}.related_posts_title a:before {content:'';position:absolute;top:0;right:0;bottom:0;left:0;}.comments {margin-top:30px;}.comments .hidden {display:none;}.comments .jtc_button.large {display:flex;border-color:var(--color-text-primary);color:var(--color-text-primary);background-color:transparent!important;}.comments .jtc_button.large:hover {border-color:var(--color-accent);color:var(--color-accent);}.comment_content_wrapper {display:none;}.comment_header_wrapper {display:flex;align-items:center;justify-content:space-between;margin-bottom:15px;}.comment_header_title {font-size:16px;font-weight:700;}.comment_header_sort {display:flex;align-items:center;font-size:13px;color:var(--color-text-secondary);cursor:pointer;}.comment_header_sort:hover {color:var(--color-accent);}.comment_header_sort:before {content:'Terbaru';}.comment_header_sort.active:before {content:'Terlama';}.comment_header_sort svg {width:21px;height:21px;margin-left:7px;}.comment_header_sort svg:last-child {display:none;}.comment_header_sort.active svg:first-child {display:none;}.comment_header_sort.active svg:last-child {display:block;}.comment_text.has_deleted {margin:0!important;}.comment_add {text-align:center;}.comment_add a {margin:15px 0 30px;}.comment_message {display:flex;margin-bottom:15px;}.comment_message svg {flex:0 0 auto;margin-right:7px;}.comment_form #threaded_comment_form {border:1px solid;border-color:var(--color-border-default);border-radius:7px;margin:0 0 15px;padding:15px;}#threaded_comment_form {margin-top:24px;}#comment_editor {background-color:transparent;border:none;}.comments ol, .comments ul {margin:0;padding:0;}.comments ol {display:flex;flex-direction:column;}.comments ol.active {flex-direction:column-reverse;}.comments ol li, .comments ul li {list-style:none;margin:0;padding:0;}.comments ol > li {border:1px solid;border-color:var(--color-border-default);border-radius:7px;margin-bottom:15px;padding:15px;}.comment_block {display:flex;align-items:flex-start;}.comment_avatar, .comment_bio_avatar {flex:0 0 auto;line-height:0;position:relative;}.comment_avatar.admin:after, .comment_bio_avatar.admin:after {content:'';background:var(--color-accent) url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline points='20 6 9 17 4 12' fill='none' stroke='%23fff' stroke-width='3px' /%3E%3C/svg%3E") center / .7rem no-repeat;background-size:.5rem;border:1px solid;border-color:var(--color-comment-avatar-check-bg);border-radius:50%;width:.75rem;height:.75rem;position:absolute;right:-2px;bottom:-2px;}.comment_avatar .avatar_img {width:37px;height:37px;border-radius:50%;}.comment_content {width:100%;margin-left:12px;}.comment_header {display:flex;align-items:center;justify-content:space-between;margin-bottom:15px;}.comment_header_end {position:relative;}.option_menu_wrapper {position:absolute;top:43px;right:0;border:1px solid;border-color:var(--color-border-default);box-shadow:0 10px 25px -3px rgb(0 0 0 / 10%);border:1px solid;border-color:var(--color-border-default);border-radius:7px;z-index:1;opacity:0;visibility:hidden;transform:translateY(5px);transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, transform .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, max-height .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;}.option_menu_wrapper.active {opacity:1;visibility:visible;transform:translateY(0);}.option_menu_wrapper a {display:block;color:var(--color-text-primary);white-space:nowrap;padding:10px 15px;}.option_menu_wrapper a:hover {color:var(--color-accent);}.comment_user {font-weight:700;color:var(--color-text-primary);}.comment_user:hover {color:var(--color-accent);}.comment_date {font-size:13px;color:var(--color-text-secondary);}.comment_actions {margin:24px 0 0 50px;}.comment_replies {margin-left:50px;}.thread_toggle {display:inline-flex;align-items:center;color:var(--color-accent);user-select:none;cursor:pointer;margin:24px 0;}.thread_toggle svg {margin-right:7px;}.thread_show:checked + .comment_replies .thread_toggle svg {transform:rotate(180deg);}.show_all {display:none;}.thread_show:checked + .comment_replies .show_all {display:block;}.thread_show:checked + .comment_replies .show_less {display:none;}.thread_show:checked + .comment_replies ul {display:none;}.comment_replies ~ .comment_actions {display:none;}.comment_reply:not(.comment_add .comment_reply, .comment_actions .comment_reply) {margin-top:24px;}.thread_show:checked + .comment_replies .comment_reply {margin:0;}.comment_reply svg {transform:rotate(180deg);}.comment_replies ul li:not(:last-child) {margin-bottom:24px;}.comment_replies .comment_avatar .avatar_img {width:30px;height:30px;}.comment_bio {position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);z-index:1002;opacity:0;visibility:hidden;}.comment_bio.active {opacity:1;visibility:visible;}.comment_bio_content {background-color:var(--color-comment-bio-bg);border:1px solid;border-color:var(--color-border-default);border-radius:7px;width:380px;max-width:calc(100vw - 30px);opacity:0;visibility:hidden;transform:scale(.95);transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, transform .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, max-height .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;}.comment_bio.active .comment_bio_content {opacity:1;visibility:visible;transform:scale(1);}.comment_bio_header {display:flex;align-items:center;border-bottom:1px solid;border-color:var(--color-border-default);padding:5px 15px 5px 5px;}.comment_bio_info {padding:15px;}.comment_bio_info_top {display:flex;align-items:center;}.comment_bio_title {font-size:16px;font-weight:700;margin-left:15px;}.comment_bio_avatar {margin-right:12px;}.comment_bio_avatar img {width:37px;border-radius:50%;}.comment_bio_user {font-size:16px;font-weight:700;}.comment_bio_info_middle {margin:15px 0 24px;}.comment_bio_info_middle .comment_text {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden;}.comment_bio_info_middle .comment_text span {display:block;color:var(--color-text-secondary);}.comment_bio_info_bottom a {width:100%;}.blog_pager {display:flex;align-items:center;justify-content:center;}.blog_pager .loading, .blog_pager .no_results {display:none;}.blog_pager .loading {cursor:wait;}.blog_pager .no_results.show {display:flex;}.blog_pager button {margin-top:30px;}.jobzeek_sidebar {max-width:300px;width:100%;}.jobzeek_sidebar .widget {margin-bottom:30px;}.sidebar_sticky {position:sticky;top:80px;}.widget_title {font-size:16px;font-weight:700;margin:0 0 15px;}.PopularPosts ul {margin:0;padding:0;}.PopularPosts ul li {list-style:none;margin:0;}.PopularPosts ul li:not(:last-child) {margin-bottom:15px;}.Label .widget_content {max-height:300px;overflow-y:auto;}.Label .widget_content:not(.content_tabs .Label .widget_content) {border:1px solid;border-color:var(--color-border-default);border-radius:7px;}.Label .list {padding:5px 15px;}.Label .widget_content ul {margin:0;padding:0;}.Label .widget_content ul li {list-style:none;margin:0;padding:0;}.Label .widget_content ul li:not(:last-child) {border-bottom:1px solid;border-color:var(--color-border-default);}.Label .widget_content ul li .label_name {display:flex;align-items:center;justify-content:space-between;color:var(--color-text-secondary);padding:10px 0;}.Label .widget_content ul li .label_name:hover {color:var(--color-accent);}.Label .cloud:not(.content_tabs .Label .cloud) {display:grid;grid-template-columns:1fr 1fr;grid-gap:10px;padding:15px;}.Label .cloud:not(.content_tabs .Label .cloud) .label_name {display:flex;align-items:center;justify-content:space-between;border-radius:7px;color:var(--color-text-secondary);box-shadow:0 1px 2px rgb(0 0 0 / 25%), 0 0 1px rgb(0 0 0 / 35%);padding:5px 12px;overflow:hidden;}.Label .cloud:not(.content_tabs .Label .cloud) .label_name:hover {background-color:var(--color-accent-hover);color:var(--color-accent);border-color:var(--color-accent);}.BlogArchive .widget_content {border:1px solid;border-color:var(--color-border-default);border-radius:7px;padding:15px;}.BlogArchive .widget_content.FLAT ul {display:grid;grid-template-columns:1fr 1fr;grid-gap:15px 30px;margin:0;padding:0;}.BlogArchive .widget_content.FLAT ul li {list-style:none;margin:0;padding:0;}.BlogArchive .widget_content.FLAT ul li a {display:flex;align-items:center;justify-content:space-between;color:var(--color-text-secondary);}.BlogArchive .widget_content.FLAT ul li a:hover {color:var(--color-accent);}.BlogArchive .widget_content.HIERARCHY {padding:3px 15px;}.BlogArchive .widget_content.HIERARCHY ul {margin:0;padding:0;}.BlogArchive .widget_content.HIERARCHY ul li {list-style:none;margin:12px 0;padding:0;}.BlogArchive .widget_content.HIERARCHY ul li a {color:var(--color-text-primary);}.BlogArchive .widget_content.HIERARCHY ul li a:hover {color:var(--color-accent);}.BlogArchive .widget_content.HIERARCHY ul li .count {color:var(--color-text-secondary);}.BlogArchive .widget_content.HIERARCHY ul li a:hover .count {color:var(--color-accent);}.BlogArchive .widget_content.HIERARCHY ul li ul {padding-left:15px;}.BlogArchive .widget_content.MENU select {display:flex;align-items:center;background-color:transparent;color:var(--color-text-secondary);border:none;width:100%;}.BlogArchive .widget_content.MENU select option {border:1px solid;border-color:var(--color-border-default);}.Profile .widget_content {border:1px solid;border-color:var(--color-border-default);border-radius:7px;text-align:center;padding:15px;}.Profile .profile_photo {display:inline-block;line-height:0;margin-bottom:15px;position:relative;}.Profile .profile_photo .profile_img {width:75px;height:75px;border-radius:50%;}.Profile .profile_name {margin-bottom:5px;}.Profile .profile_name .profile_link, .Profile .team_member .profile_link .profile_name {font-size:16px;font-weight:500;color:var(--color-text-primary);}.Profile .profile_name .profile_link:hover, .Profile .team_member .profile_link .profile_name:hover {color:var(--color-accent);}.Profile .profile_location {display:flex;align-items:center;justify-content:center;gap:5px;font-size:13px;color:var(--color-text-secondary);margin-bottom:10px;}.Profile .profile_location svg {width:14px;height:14px;fill:currentcolor;}.Profile .profile_bio {margin-bottom:15px;}.Profile .profile_bio a {color:var(--color-accent);}.Profile .profile_bio a:hover {text-decoration:underline;}.Profile .team ul {margin:0;padding:0;}.Profile .team ul li {list-style:none;margin:0;padding:0;}.Profile .team ul li:not(:last-child) {margin-bottom:12px;}.Profile .team_member .profile_link {display:flex;align-items:center;}.Profile .team_member .profile_link .profile_image {display:block;line-height:0;margin-right:12px;}.Profile .team_member .profile_link .profile_image .profile_img {width:50px;height:50px;border-radius:50%;}.subscribe_box {border:1px solid;border-color:var(--color-border-default);border-radius:7px;padding:15px;}.subscribe_box .title {display:flex;align-items:center;gap:10px;}.subscribe_box .title svg {stroke:var(--color-accent);flex:0 0 auto;}.subscribe_box .title path {stroke:var(--color-accent);}.subscribe_box span {display:block;color:var(--color-text-secondary);margin-bottom:15px;}.subscribe_box form {display:flex;flex-direction:column;gap:15px;}.subscribe_box form input {background-color:transparent;color:var(--color-text-primary);border:1px solid;border-color:var(--color-search-box-border);border-radius:7px;outline:none;width:100%;height:46px;padding:0 15px;}.subscribe_box form input:focus {border-color:var(--color-accent);}.subscribe_box form input:focus::placeholder {opacity:.5;}.jobzeek_footer_wrap {background-color:var(--color-footer-bg);color:var(--color-text-primary);}.footer_content {max-width:1200px;margin:0 auto;padding:35px 15px;}.footer_widget {display:flex;align-items:center;justify-content:space-between;gap:25px;}.footer_widget ul {display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:15px;margin:0;padding:0;}.footer_widget ul li {list-style:none;margin:0;padding:0;}.footer_widget ul li a {display:block;color:var(--color-text-primary);}.footer_widget ul li a:hover {color:var(--color-accent);}.footer_widget .LinkList ul li a {line-height:0;}.footer_copyright {background-color:#fe5722;color:#ffffff;text-align:center;padding:15px;}.footer_copyright a {color:#eed68c;}.footer_copyright a:hover {text-decoration:underline;}.back_to_top {position:fixed;right:15px;bottom:15px;z-index:1;transform:translateY(85px);transition:transform .3s ease;}.back_to_top.show {transform:translateY(0);}.back_to_top .back_to_top_button {background-color:#ffffff;border:1px solid;border-color:var(--color-border-default);}.back_to_top .back_to_top_button:hover {background-color:var(--color-accent-hover);border-color:var(--color-accent);}.jobzeek_alert {border-radius:7px;margin:15px 0;padding:15px;overflow:hidden;position:relative;}.jobzeek_alert:not(.alert_outline) {background-color:var(--color-alert-default-bg);}.jobzeek_alert.alert_outline {border:1px solid;border-color:var(--color-border-default);}.jobzeek_alert.alert_info, .jobzeek_alert.alert_warning, .jobzeek_alert.alert_success, .jobzeek_alert.alert_error {background-repeat:no-repeat;background-size:24px;background-position:15px 15px;padding:15px 15px 15px 50px;}.jobzeek_alert.alert_info {background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z' fill='%2300a7e6'/%3E%3C/svg%3E");}.jobzeek_alert.alert_info:not(.alert_outline) {background-color:var(--color-alert-info-bg);}.jobzeek_alert.alert_warning {background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13,13H11V7H13M13,17H11V15H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z' fill='%23ecb621'/%3E%3C/svg%3E");}.jobzeek_alert.alert_warning:not(.alert_outline) {background-color:var(--color-alert-warning-bg);}.jobzeek_alert.alert_success {background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z' fill='%2341ba79'/%3E%3C/svg%3E");}.jobzeek_alert.alert_success:not(.alert_outline) {background-color:var(--color-alert-success-bg);}.jobzeek_alert.alert_error {background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.2,16.06L3.88,12L2.2,7.94L6.26,6.26L7.94,2.2L12,3.88L16.06,2.2L17.74,6.26L21.8,7.94L20.12,12L21.8,16.06L17.74,17.74L16.06,21.8L12,20.12L7.94,21.8L6.26,17.74L2.2,16.06M13,17V15H11V17H13M13,13V7H11V13H13Z' fill='%23c00827'/%3E%3C/svg%3E");}.jobzeek_alert.alert_error:not(.alert_outline) {background-color:var(--color-alert-error-bg);}.jobzeek_alert.alert_info:before, .jobzeek_alert.alert_warning:before, .jobzeek_alert.alert_success:before, .jobzeek_alert.alert_error:before {content:'';position:absolute;top:45px;left:27px;height:calc(100% - 60px);border-left:1px solid;}.jobzeek_alert.alert_info:before {border-color:var(--color-alert-text-info);}.jobzeek_alert.alert_warning:before {border-color:var(--color-alert-text-warning);}.jobzeek_alert.alert_success:before {border-color:var(--color-alert-text-success);}.jobzeek_alert.alert_error:before {border-color:var(--color-alert-text-error);}.jobzeek_alert.alert_info.alert_outline {border-color:var(--color-alert-text-info);}.jobzeek_alert.alert_warning.alert_outline {border-color:var(--color-alert-text-warning);}.jobzeek_alert.alert_success.alert_outline {border-color:var(--color-alert-text-success);}.jobzeek_alert.alert_error.alert_outline {border-color:var(--color-alert-text-error);}.jobzeek_alert .alert_message strong {display:block;margin-bottom:10px;}.jobzeek_alert.alert_info .alert_message strong {color:var(--color-alert-text-info);}.jobzeek_alert.alert_warning .alert_message strong {color:var(--color-alert-text-warning);}.jobzeek_alert.alert_success .alert_message strong {color:var(--color-alert-text-success);}.jobzeek_alert.alert_error .alert_message strong {color:var(--color-alert-text-error);}.jobzeek_alert .alert_message a:not(.jobzeek_button) {display:inline-block;color:var(--color-text-primary);text-decoration:underline;}.jobzeek_button {display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;color:var(--color-text-white);background-color:transparent;outline:none;border:none;border-radius:7px;padding:0 15px;cursor:pointer;user-select:none;white-space:nowrap;position:relative;}.jobzeek_button:not(.unelevated, .raised) {color:var(--color-accent);}.jobzeek_button:not(.disabled, .unelevated, .raised):hover {background-color:var(--color-accent-hover);}.jobzeek_button.outline {border:1px solid;border-color:var(--color-accent);}.jobzeek_button.unelevated:not(.disabled), .jobzeek_button.raised:not(.disabled) {background-color:var(--color-accent);}.jobzeek_button.unelevated:not(.disabled):hover, .jobzeek_button.raised:not(.disabled):hover {box-shadow:inset 0 0 0 99999px rgb(0 0 0 / 15%);}.jobzeek_button.rounded {border-radius:30px;}.jobzeek_button.raised {box-shadow:0 1px 2px 0 rgb(0 0 0 / 30%), 0 1px 3px 1px rgb(0 0 0 / 15%);}.jobzeek_button.disabled {color:var(--color-text-secondary);cursor:not-allowed;}.jobzeek_button.outline.disabled {border-color:rgba(0, 0, 0, 0.12);}.jobzeek_button.unelevated.disabled, .jobzeek_button.raised.disabled {background-color:rgb(0 0 0 / 5%);}.jobzeek_button svg {margin-right:7px;}.jobzeek_button.small {height:32px;padding:0 12px;}.jobzeek_button.small svg {width:16px;height:16px;}.jobzeek_button.medium {height:46px;}.jobzeek_button.large {height:56px;}.button_wrap {display:flex;align-items:center;flex-wrap:wrap;gap:8px;}.jobzeek_button_icon {display:inline-flex;align-items:center;background:none;border:none;outline:none;cursor:pointer;user-select:none;color:#ffffff;border-radius:7px;padding:10px;position:relative;}.jobzeek_button_icon.rounded {border-radius:50%;}.jobzeek_button_icon:not(.unelevated) {color:var(--color-text-primary);}.jobzeek_button_icon:not(.unelevated):hover {color:var(--color-accent);}.jobzeek_button_icon.unelevated {background-color:var(--color-accent);}.jobzeek_button_icon.unelevated:hover {box-shadow:inset 0 0 0 99999px rgb(0 0 0 / 15%);}blockquote {background-color:#eed68c;color:#000000;border-radius:7px;margin:25px 10px 35px 0;padding:15px;position:relative;}blockquote:after {content:'';position:absolute;top:0;right:-10px;bottom:-10px;left:0;background-color:#000000;border-radius:7px;z-index:-1;margin-top:10px;margin-left:10px;}blockquote a {color:var(--color-text-primary);text-decoration:underline;}blockquote span, blockquote small, blockquote footer {display:block;opacity:.5;margin-top:10px;}.jobzeek_table {border:1px solid;border-color:var(--color-border-default);border-radius:7px;overflow-x:auto;}.jobzeek_table table {font-size:14px;border:0;border-collapse:collapse;min-width:100%;white-space:nowrap;margin:0;}.jobzeek_table .table_primary thead {background-color:var(--color-table-primary-bg);color:var(--color-table-text-primary);}.jobzeek_table .table_warning thead {background-color:var(--color-table-warning-bg);color:var(--color-table-text-warning);}.jobzeek_table .table_success thead {background-color:var(--color-table-success-bg);color:var(--color-table-text-success);}.jobzeek_table .table_error thead {background-color:var(--color-table-error-bg);color:var(--color-table-text-error);}.jobzeek_table table thead th {font-weight:700;border-bottom:1px solid;border-color:var(--color-border-default);text-align:center;}.jobzeek_table table th, .jobzeek_table table td {padding:15px;}.jobzeek_table table th {font-weight:400;}.jobzeek_table table tbody tr:not(:first-child) {border-top:1px solid;border-color:var(--color-border-default);}.jobzeek_table .table_stripped tbody tr:nth-of-type(2n+1), .jobzeek_table .table_hovered tbody tr:hover {background-color:var(--color-table-hover-bg);}.jobzeek_table.table_sticky {max-height:400px;overflow:auto;}.jobzeek_table.table_sticky table {border-collapse:separate;border-spacing:0;}.jobzeek_table.table_sticky table thead {position:sticky;top:0;}.jobzeek_table.table_sticky table thead:not(.jobzeek_table .table_primary thead, .jobzeek_table .table_warning thead, .jobzeek_table .table_success thead, .jobzeek_table .table_error thead) {background-color:var(--color-table-header-sticky);}.jobzeek_table.table_sticky table tbody tr:not(:last-child) th, .jobzeek_table.table_sticky table tbody tr:not(:last-child) td {border-bottom:1px solid;border-color:var(--color-border-default);}.jobzeek_collapse {display:block;margin:15px 0;}.jobzeek_collapse .collapse_panel {background-color:var(--color-collapsible-bg);border-radius:7px;}.jobzeek_collapse .collapse_panel:not(:last-child) {margin-bottom:15px;}.jobzeek_collapse .collapse_panel .collapse_header {display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:700;padding:15px;cursor:pointer;}.jobzeek_collapse .collapse_panel .collapse_header:after {content:'';background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z' fill='%232447f9'/%3E%3C/svg%3E") no-repeat center;flex:0 0 auto;width:24px;height:24px;margin-left:15px;}.jobzeek_collapse .collapse_panel .collapse_header.active:after {background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19,13H5V11H19V13Z' fill='%235f6368'/%3E%3C/svg%3E") no-repeat center;}.jobzeek_collapse .collapse_panel .collapse_content {display:none;font-size:14px;padding:0 15px 15px;}.jobzeek_collapse .collapse_panel .collapse_content.open {display:block;}.jobzeek_highlight {position:relative;}pre {background-color:var(--color-highlighter-bg);color:var(--color-text-secondary);border:1px solid;border-color:var(--color-higlighter-border);border-radius:7px;font-size:14px;line-height:1.4;overflow-x:auto;margin:15px 0;padding:45px 15px 15px;}pre[data-lang] {padding-top:67px;}pre[data-lang]:before {content:attr(data-lang);position:absolute;top:0;right:0;left:0;border-bottom:1px solid;border-color:var(--color-higlighter-border);padding:15px;}code:not(pre code) {font-size:14px;word-break:break-word;background-color:var(--color-body-bg);color:var(--color-text-secondary);border:1px solid;border-color:var(--color-border-default);border-radius:7px;padding:0 4px;}.pre_copy_button {position:absolute;top:15px;right:15px;cursor:pointer;}.pre_copy_button:hover {color:var(--color-accent);}.manual_related_post {background-color:var(--color-highlighter-bg);border-left:3px solid;border-color:var(--color-accent);padding:15px;}.media_player {height:0;margin:15px 0;padding-bottom:56.25%;position:relative;overflow:hidden;}.media_player embed, .media_player iframe, .media_player object, .media_player .yt_thumb {width:100%;height:100%;object-fit:cover;border-radius:7px;position:absolute;top:0;left:0;cursor:pointer;}.media_player .yt_thumb {filter:brightness(.6);}.media_player .play_button {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);line-height:0;z-index:1;cursor:pointer;}.media_player .play_button svg {fill:#ffffff;width:50px;height:50px;opacity:.6;}.media_player:hover .play_button svg {opacity:1;}.post_reference {font-size:13px;line-height:1.5em;opacity:.7;}#toc_wrap {display:inline-block;border:1px solid;border-color:var(--color-border-default);border-radius:7px;word-break:normal;margin:15px 0;padding:15px 15px 5px;}.toc_header {display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:10px;}.toc_title {font-size:16px;font-weight:700;}.show_hide_toc_button {cursor:pointer;padding:0;}.show_hide_toc_button svg:first-child {display:none;}.show_hide_toc_button.hide svg:last-child {display:none;}.show_hide_toc_button.hide svg:first-child {display:block;}#toc_content.hide {display:none;}#toc_content ol {margin:0;padding:0;counter-reset:toc-count;}#toc_content ol li {list-style:none;margin:0;padding:0;position:relative;}#toc_content li > a:before {content:counters(toc-count,'.')'. ';counter-increment:toc-count;color:var(--color-text-secondary);display:inline-block;margin-right:7px;}#toc_content ol li a {display:inline-block;font-size:14px;margin-bottom:10px;}#toc_content ol li a:hover {text-decoration:underline;}#toc_content li ol {padding:0 0 0 18px;}.steps_section {position:relative;}.steps_section:not(.steps_section.done):before {content:'';width:1px;background-color:var(--color-accent);position:absolute;top:0;bottom:0;left:19.5px;}.steps_section .left {margin-right:15px;position:absolute;}.steps_section.done .left:after {display:none;}.steps_section .left .icon {display:flex;background-color:var(--color-step-section-bg);color:var(--color-text-secondary);border:1px solid;border-color:var(--color-accent);border-radius:50%;padding:10px;}.steps_section .left .icon svg {width:18px;height:18px;}.steps_section .right {margin-left:55px;padding:8px 0 25px;}.steps_section .right:before {content:attr(data-step);font-weight:700;color:var(--color-accent);}.jobzeek_product_post_tool {max-width:838px;}.jobzeek_product_post_tool .section:nth-child(1) {border-bottom:1px solid;border-color:var(--color-border-default);margin-bottom:2px;padding-bottom:28px;}.jobzeek_product_post_tool .section:nth-child(11) {border-top:1px solid;border-bottom:1px solid;border-color:var(--color-border-default);margin:2px 0;padding:28px 0;}.jobzeek_product_post_tool .section label:not(.br_text label) {display:block;font-weight:700;margin-bottom:8px;}.jobzeek_product_post_tool .section input:not(#tagbr) {background-color:transparent;color:var(--color-text-primary);border:1px solid;border-color:var(--color-search-box-border);border-radius:7px;outline:none;text-overflow:ellipsis;width:-webkit-fill-available;height:46px;padding:0 15px;}.jobzeek_product_post_tool .section input::placeholder, .jobzeek_product_post_tool .section textarea::placeholder {color:var(--color-text-secondary);}.jobzeek_product_post_tool .section input:not(#tagbr):focus, .jobzeek_product_post_tool .section textarea:focus {border-color:var(--color-accent);}.jobzeek_product_post_tool .section input:not(#tagbr):focus::placeholder, .jobzeek_product_post_tool .section textarea:focus::placeholder {opacity:.5;}.jobzeek_product_post_tool .section textarea {background-color:transparent;color:var(--color-text-primary);border:1px solid;border-color:var(--color-search-box-border);border-radius:7px;outline:none;text-overflow:ellipsis;width:-webkit-fill-available;height:200px;max-width:838px;padding:15px;}.jobzeek_product_post_tool .section .br_text {display:inline-flex;align-items:center;gap:7px;}.snackbar {display:flex;align-items:center;gap:8px;position:fixed;bottom:24px;left:0;right:0;background-color:var(--color-snackbar-bg);box-shadow:rgb(0 0 0 / 10%) 0px 12px 24px 0px;color:var(--color-snackbar-text);border-radius:7px;max-width:fit-content;margin:0 auto;padding:12px 15px;z-index:1002;opacity:0;visibility:hidden;transform:translateY(50px);transition:opacity .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, visibility .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, transform .3s cubic-bezier(0.23, 1, 0.32, 1) 0s, max-height .3s cubic-bezier(0.23, 1, 0.32, 1) 0s;}.snackbar.active {opacity:1;visibility:visible;transform:translateY(0);}.snackbar svg {width:20px;height:20px;fill:var(--color-accent);}.backdrop, .backdrop_notification, .backdrop_secondary {position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;visibility:hidden;z-index:1000;transition:all .3s ease;}.backdrop_secondary {z-index:1001;}.nav_active .backdrop, .share_active .backdrop_secondary, .ntfcn_active .backdrop_notification, .cb_active .backdrop_secondary {background-color:rgb(0 0 0 / 55%);opacity:1;visibility:visible;}.ad_widget {display:none;}.ad_under_header {max-width:1200px;margin:0 auto;padding:0 15px;}.ad_under_header .widget {margin:0 0 30px;}.infeed_ads {grid-column:1 / span 2;background-color:transparent!important;border:none;border-radius:0;padding:0;}.layout_list .infeed_ads {grid-column:1;}#ms_matched_content {margin-top:30px;}#top_ad_content, #middle_ad1_content, #middle_ad2_content, #parallax_ad_content, #bottom_ad_content {margin:24px 0;}#parallax_ad_content {display:none;}.ad_box {display:flex;align-items:center;justify-content:center;border:1px solid;border-color:var(--color-accent);border-radius:7px;color:var(--color-accent);width:100%;height:200px;}.lazyload {background-color:#fafafa;}.next_post {animation-name: fadeInUp;animation-duration: 0.5s;}@keyframes fadeInUp {from {opacity: 0;transform: translate3d(0, 5px, 0);}to {opacity: 1;transform: translate3d(0, 0, 0);}}@keyframes indicator {0% {opacity: 0;}50% {opacity: 1;}100% {opacity: 0;}}.circle_animate {animation:circle 1.5s linear infinite;}@keyframes circle{0%{transform:rotate(0deg);}100%{transform:rotate(360deg) }}@media screen and (max-width:1024px) {.content_tabs .widget .cloud {overflow-x:auto;}.content_tabs .widget .cloud::-webkit-scrollbar {width:0;height:0;}}@media screen and (max-width:768px) {.jobzeek_header_wrapper {padding:0 5px;}.header_left {gap:5px;}.header_left .menu_button {display:inline-flex;}.jobzeek_navigation {position:fixed;top:60px;right:0;left:0;background-color:#ffffff;border-radius:0 0 24px 24px;max-height:0;overflow-y:auto;transition:max-height .5s ease;}.nav_active .jobzeek_navigation {max-height:80vh;}.jobzeek_navigation .navigation_widget {padding:8px 0;}.jobzeek_navigation ul {display:block;}.jobzeek_navigation ul li a {line-height:44px;}.jobzeek_navigation ul li .arrow_icon {margin-left:auto;}.jobzeek_navigation li ul {position:unset;box-shadow:none;border:none;max-height:0;overflow:hidden;padding:0;}.jobzeek_navigation li ul.show {max-height:100vh;}.jobzeek_navigation li ul li a {padding-left:54px;}.jobzeek_content_wrapper {flex-direction:column;}.jobzeek_index_post {width:100%;}.jobzeek_sidebar {max-width:100%;margin-top:30px;}.sidebar_sticky {position:unset;}.footer_widget {flex-direction:column;}}@media screen and (max-width:480px) {.search_form {flex-direction:column;}.isMultipleItems .blog_posts {grid-template-columns:1fr;}.infeed_ads {grid-column:1;}.job_posting_start {flex-direction:column;}.job_posting_button {display:none;}.bottom_bar_menu {position:fixed;bottom:0;right:0;left:0;display:flex;align-items:center;background-color:#ffffff;border-top:1px solid;border-color:var(--color-border-default);z-index:2;padding:10px 15px;}.bottom_bar_menu .apply_button {flex:1;margin-right:5px;}.bottom_bar_menu .apply_button .jobzeek_button {display:flex;}.bottom_bar_menu .bookmark.bookmarked svg {fill:var(--color-accent);stroke:var(--color-accent);}h1.entry_post_title {font-size:22px;}.entry_post_share_ap .whatsapp svg, .entry_post_share_ap .telegram svg {margin:0;}.entry_post_share_ap .whatsapp span, .entry_post_share_ap .telegram span {display:none;}.share_content {justify-content:center;}.share_content a {flex:unset;}.isPost .back_to_top {bottom:80px;}.isArticlePage .back_to_top {bottom:15px;}.isPost .jobzeek_footer_wrap {padding-bottom:67px;}.isArticlePage .jobzeek_footer_wrap {padding:0;}#parallax_ad {display:block;}#parallax_ad_content {display:block;position:relative;overflow:visible;height:700px;}#parallax_ad_content > div {width: 100%;height: 100%;position: absolute;top: 0;left: 0;clip: rect(auto auto auto auto);overflow: hidden;}#parallax_ad_content > div > div {width:100%;height:100%;position:fixed;top:80px;left:0;padding:0 15px;}.related_posts ul {grid-template-columns:1fr;}}
-
-.Label:not(.content_tabs .Label) {border:1px solid;border-color:var(--color-border-default);border-radius:7px;}
-.Label:not(.content_tabs .Label) .widget_title {border-bottom:1px solid;border-color:var(--color-border-default);text-align:center;margin:0;padding:15px;}
-.Label .cloud .label_title {white-space:nowrap;text-overflow:ellipsis;overflow:hidden;margin-right:7px;}
-.Label .cloud .label_count {display:inline-flex;align-items:center;gap:3px;}
-.Label .cloud .label_count svg {width:16px;height:16px;fill:none;stroke:currentcolor;}
-.Label .cloud:not(.content_tabs .Label .cloud){border:none;}
-
-.bottom_bar_menus {
-  display:none;
-  position:fixed;
-  right:0;
-  bottom:0;
-  left:0;
-  background-color:#ffffff;
-}
-.bottom_bar_menu_widget ul {
-  display:flex;
-  align-items:center;
-  justify-content:space-around;
-  border-top:1px solid;
-  border-color:var(--color-border-default);
-  margin:0;
-  padding:5px 15px;
-}
-.bottom_bar_menu_widget ul li {
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-.bottom_bar_menu_widget ul li a {
-  display:flex;
-  align-items:center;
-  flex-direction:column;
-  color:var(--color-text-secondary);
-}
-.bottom_bar_menu_widget ul li svg {
-  width:21px;
-  height:21px;
-}
-.bottom_bar_menu_widget ul li span {
-  font-size:11px;
-  margin-top:3px;
+/* Container for the entire job posting */
+.job_posting_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
-.sb_popup {
-  display:none;
-  position:fixed;
-  top:25px;
-  right:0;
-  left:0;
-  background-color:#ffffff;
-  border-radius:7px;
-  z-index:9999;
-  margin:0 15px;
-  padding:15px;
-  opacity:0;
-  visibility:hidden;
-  transform:translateY(-10px);
-  transition:all .2s ease;
-}
-.search_active .sb_popup {
-  opacity:1;
-  visibility:visible;
-  transform:translateY(0);
-}
-.sb_popup .sb_form {
-  display:flex;
-}
-.sb_popup .sb_form .icon {
-  line-height:0;
-  margin-right:10px;
-}
-.sb_popup .sb_form .icon svg {
-  width:21px;
-  height:21px;
-}
-.search_active .backdrop {
-  opacity:1;
-  visibility:visible;
-  background-color:rgb(0 0 0 / 55%);
-  z-index:9998;
+/* Header section */
+.job_posting_start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-@media screen and (max-width:768px) {
-  .bottom_bar_menus, .sb_popup {
-    display:block;
+.job_posting_header {
+  display: flex;
+  align-items: center;
+}
+
+.job_posting_thumbnail img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.job_posting_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Information section */
+.job_posting_info {
+  margin-top: 10px;
+}
+
+.job_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.job_info svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  stroke: #333;
+}
+
+/* Button section */
+.job_posting_button {
+  margin-top: 20px;
+}
+
+.job_posting_apply_button a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.job_posting_apply_button a:hover {
+  background-color: #0056b3;
+}
+
+/* Description section */
+.job_posting_end {
+  margin-top: 20px;
+}
+
+.job_posting_end h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job_posting_end p {
+  margin-bottom: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .job_posting_start {
+    flex-direction: column;
   }
-  .back_to_top {
-    display:none;
-  }
-  .jobzeek_footer_wrap {
-    padding-bottom:50px;
-  }
-}
 
-#float-ads{margin:auto;text-align:center;position:fixed;bottom:0;z-index:1;width:100%;max-width:1100px;transform:translate(-50%,0%);left:50%;line-height:1}#close-float-ads{position:absolute;background:#113585;color:#fff;font-size:12px;padding:4px 8px;line-height:1;width:60px;z-index:1;transform:translate(-50%,-50%);left:50%}#close-float-ads span{font-size:12px!important}#bottom-ads h2{display:none} .distr{opacity:0}
-]]></b:skin>
-</b:if>
+  .job_posting_thumbnail img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 
-<b:template-skin>
-<![CDATA[
-body#layout, body#layout div.section {
-  font-family:Arial,sans-serifsans-serif;
+  .job_posting_header {
+    text-align: center;
+  }
+
+  .job_posting_info {
+    flex-direction: column;
+  }
+
+  .job_posting_apply_button a {
+    width: 100%;
+  }
 }
-body#layout {
-  background-color:transparent;
-  border:none;
-  text-align:left;
-  max-width:768px;
-  margin:0 auto;
-  padding:15px;
-}
-body#layout:before {
-  content:'JobZeek';
-  display:inline-block;
-  background-color:#000000;
-  color:#ffffff;
-  font-size:24px;
-  font-weight:700;
-  border-radius:7px;
-  margin-bottom:30px;
-  padding:10px 15px;
-}
-body#layout div.section {
-  background-color:transparent;
-  border:1px solid;
-  border-color:#e2e2e2;
-  border-radius:7px;
-  width:-webkit-fill-available;
-  max-width:100%;
-  max-height:100%;
-  margin:0 0 15px;
-  padding:15px;
-}
-body#layout div.section > div {
-  border-radius:7px;
-}
-body#layout .add_widget a {
-  color:#fe5722;
-}
-body#layout #header {
-  width:50%;
-  margin-right:15px;
-}
-body#layout .jobzeek_navigation {
-  width:50%;
-}
-body#layout .header_left {
-  display:flex;
-}
-body#layout .section h4 {
-  font-size:14px;
-  text-transform:uppercase;
-  margin:0 0 5px;
-}
-body#layout .locked-widget .widget-content {
-  border-radius:7px;
-}
-body#layout .widget-content {
-  border-radius:0 7px 7px 0;
-}
-body#layout .visibility .editlink.icon {
-  border:1px solid;
-  border-color:#e2e2e2;
-  border-radius:50%;
-  padding:6px;
-}
-body#layout .visibility .editlink.icon:hover {
-  background-color:#e2e2e2;
-}
-body#layout .jobzeek_content_wrapper {
-  display:flex;
-}
-body#layout .jobzeek_index_post {
-  margin-right:15px;
-  width:50%;
-}
-body#layout .jobzeek_sidebar {
-  width:50%;
-}
-body#layout #sidebar_sticky {
-  position:sticky;
-  top:15px;
-}
-body#layout .Blog .widget-content {
-  height:unset;
-}
-body#layout .add_widget {
-  margin-top:15px!important;
-}
-body#layout .draggable-widget .widget-wrap2 {
-  background-color:#fe5722;
-  border-radius:7px 0 0 7px;
-}
-body#layout .visibility .layout-widget-state.not-visible {
-  background-image:url('https://4.bp.blogspot.com/-tqL3-mrEM7A/XR_H_P3mFZI/AAAAAAAABSs/4PO1g3CDQbse_mJYzwn-60OQoYMFcq1FQCK4BGAYYCw/s1600/visibility_off_c3_600_24dp.png');
-  opacity:1;
-}
-body#layout .ad_under_header .widget-content, body#layout .infeed_ad .widget-content, body#layout .top_ad .widget-content, body#layout .middle_ad1 .widget-content, body#layout .parallax_ad .widget-content, body#layout .middle_ad2 .widget-content, body#layout .bottom_ad .widget-content, body#layout .matched_content .widget-content {
-  background-color:#ffdfdf;
-}
-body#layout .ad_under_header .widget-content .editlink.icon, body#layout .infeed_ad .widget-content .editlink.icon, body#layout .top_ad .widget-content .editlink.icon, body#layout .middle_ad1 .widget-content .editlink.icon, body#layout .parallax_ad .widget-content .editlink.icon, body#layout .middle_ad2 .widget-content .editlink.icon, body#layout .bottom_ad .widget-content .editlink.icon, body#layout .matched_content .widget-content .editlink.icon {
-  border-color:#9d9d9d;
-}
-body#layout .ad_under_header .widget-content .editlink.icon:hover, body#layout .infeed_ad .widget-content .editlink.icon:hover, body#layout .top_ad .widget-content .editlink.icon:hover, body#layout .middle_ad1 .widget-content .editlink.icon:hover, body#layout .parallax_ad .widget-content .editlink.icon:hover, body#layout .middle_ad2 .widget-content .editlink.icon:hover, body#layout .bottom_ad .widget-content .editlink.icon:hover, body#layout .matched_content .widget-content .editlink.icon:hover {
-  background-color:#ffdfdf;
-}
-]]></b:template-skin>
